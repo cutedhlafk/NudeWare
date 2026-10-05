@@ -1,0 +1,1 @@
+(function(){try{var p=$.GetContextPanel();if(!p||!p.IsValid())return;p.visible=true;try{if(p.SetRenderInterval)p.SetRenderInterval(1);}catch(e){}try{if(p.SetReadyForDisplay)p.SetReadyForDisplay(true);}catch(e){}try{p.map='ui/buy_menu';}catch(e){}try{p.camera='cam_loadoutmenu_ct';}catch(e){}try{p.animgraphcharactermode='buy-menu';}catch(e){}}catch(e){}})();

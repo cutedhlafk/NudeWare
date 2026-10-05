@@ -1,0 +1,460 @@
+{
+  "sha256": "a26199cea6ed733326552b8ee483f8f6788ed6482f4136673a04de04588d7e28",
+  "size": 6016512,
+  "machine": "0x8664",
+  "image_base": "0x180000000",
+  "entrypoint": "0x183100",
+  "clr_directory": 0,
+  "sections": [
+    {
+      "name": ".text",
+      "rva": "0x1000",
+      "raw_size": 2537472,
+      "virtual_size": 2537254,
+      "entropy": 6.546
+    },
+    {
+      "name": ".rdata",
+      "rva": "0x26d000",
+      "raw_size": 993280,
+      "virtual_size": 992984,
+      "entropy": 6.0
+    },
+    {
+      "name": ".data",
+      "rva": "0x360000",
+      "raw_size": 2398720,
+      "virtual_size": 2584520,
+      "entropy": 6.715
+    },
+    {
+      "name": ".pdata",
+      "rva": "0x5d7000",
+      "raw_size": 50688,
+      "virtual_size": 50340,
+      "entropy": 6.069
+    },
+    {
+      "name": ".tls",
+      "rva": "0x5e4000",
+      "raw_size": 17408,
+      "virtual_size": 17161,
+      "entropy": -0.0
+    },
+    {
+      "name": "_addr",
+      "rva": "0x5e9000",
+      "raw_size": 4608,
+      "virtual_size": 4208,
+      "entropy": 2.198
+    },
+    {
+      "name": ".rsrc",
+      "rva": "0x5eb000",
+      "raw_size": 512,
+      "virtual_size": 232,
+      "entropy": 2.351
+    },
+    {
+      "name": ".reloc",
+      "rva": "0x5ec000",
+      "raw_size": 12800,
+      "virtual_size": 12600,
+      "entropy": 6.202
+    }
+  ],
+  "imports": {
+    "api-ms-win-core-libraryloader-l1-2-0.dll": [
+      "DisableThreadLibraryCalls",
+      "GetModuleFileNameA",
+      "GetModuleFileNameW",
+      "GetModuleHandleA",
+      "GetModuleHandleExA",
+      "GetModuleHandleExW",
+      "GetModuleHandleW",
+      "GetProcAddress"
+    ],
+    "api-ms-win-core-registry-l1-1-0.dll": [
+      "RegCloseKey",
+      "RegOpenKeyExW",
+      "RegQueryValueExW"
+    ],
+    "api-ms-win-core-memory-l1-1-0.dll": [
+      "MapViewOfFile",
+      "UnmapViewOfFile",
+      "VirtualAlloc",
+      "VirtualFree",
+      "VirtualProtect",
+      "VirtualQuery"
+    ],
+    "api-ms-win-core-sysinfo-l1-1-0.dll": [
+      "GetLocalTime",
+      "GetSystemInfo",
+      "GetSystemTimeAsFileTime",
+      "GetTickCount64",
+      "GetWindowsDirectoryW",
+      "GlobalMemoryStatusEx"
+    ],
+    "api-ms-win-core-string-l1-1-0.dll": [
+      "MultiByteToWideChar",
+      "WideCharToMultiByte"
+    ],
+    "api-ms-win-core-processthreads-l1-1-0.dll": [
+      "CreateThread",
+      "GetCurrentProcess",
+      "GetCurrentThread",
+      "GetCurrentThreadId",
+      "SetThreadPriority",
+      "TlsAlloc",
+      "TlsGetValue",
+      "TlsSetValue"
+    ],
+    "api-ms-win-core-com-l1-1-0.dll": [
+      "CoCreateInstance",
+      "CoInitializeEx",
+      "CoUninitialize",
+      "CreateStreamOnHGlobal",
+      "PropVariantClear"
+    ],
+    "api-ms-win-core-processthreads-l1-1-1.dll": [
+      "FlushInstructionCache",
+      "OpenProcess"
+    ],
+    "api-ms-win-core-profile-l1-1-0.dll": [
+      "QueryPerformanceCounter",
+      "QueryPerformanceFrequency"
+    ],
+    "api-ms-win-core-file-l1-1-0.dll": [
+      "CreateDirectoryW",
+      "CreateFileA",
+      "CreateFileW",
+      "FindClose",
+      "FindFirstFileExW",
+      "FindFirstFileW",
+      "FindNextFileW",
+      "FlushFileBuffers",
+      "GetFileAttributesExW",
+      "GetFileSizeEx",
+      "GetFinalPathNameByHandleW",
+      "ReadFile",
+      "SetFileInformationByHandle",
+      "WriteFile"
+    ],
+    "api-ms-win-core-processenvironment-l1-1-0.dll": [
+      "ExpandEnvironmentStringsW"
+    ],
+    "SHELL32.dll": [
+      "SHGetFolderPathW",
+      "ShellExecuteA",
+      "ShellExecuteW"
+    ],
+    "api-ms-win-core-libraryloader-l1-2-1.dll": [
+      "LoadLibraryW"
+    ],
+    "USER32.dll": [
+      "CloseClipboard",
+      "EmptyClipboard",
+      "EnumWindows",
+      "GetAsyncKeyState",
+      "GetClipboardData",
+      "GetCursorPos",
+      "GetForegroundWindow",
+      "GetWindowLongPtrW",
+      "GetWindowTextW",
+      "GetWindowThreadProcessId",
+      "IsIconic",
+      "IsWindow",
+      "LoadCursorW",
+      "MapVirtualKeyW",
+      "OpenClipboard",
+      "SetClipboardData",
+      "SetCursor",
+      "SetCursorPos",
+      "wsprintfA"
+    ],
+    "api-ms-win-core-synch-l1-2-0.dll": [
+      "InitOnceBeginInitialize",
+      "InitOnceComplete",
+      "InitOnceExecuteOnce",
+      "Sleep",
+      "WaitOnAddress"
+    ],
+    "api-ms-win-core-heap-obsolete-l1-1-0.dll": [
+      "GlobalLock",
+      "GlobalUnlock"
+    ],
+    "api-ms-win-core-heap-l2-1-0.dll": [
+      "GlobalAlloc",
+      "LocalFree"
+    ],
+    "api-ms-win-ntuser-sysparams-l1-1-0.dll": [
+      "GetSystemMetrics"
+    ],
+    "api-ms-win-core-winrt-l1-1-0.dll": [
+      "RoGetActivationFactory",
+      "RoInitialize",
+      "RoUninitialize"
+    ],
+    "api-ms-win-core-winrt-string-l1-1-0.dll": [
+      "WindowsCreateStringReference",
+      "WindowsDeleteString",
+      "WindowsGetStringRawBuffer"
+    ],
+    "api-ms-win-core-toolhelp-l1-1-0.dll": [
+      "CreateToolhelp32Snapshot",
+      "Process32FirstW",
+      "Process32NextW"
+    ],
+    "api-ms-win-core-handle-l1-1-0.dll": [
+      "CloseHandle"
+    ],
+    "api-ms-win-core-errorhandling-l1-1-0.dll": [
+      "GetLastError",
+      "RaiseException"
+    ],
+    "api-ms-win-core-psapi-l1-1-0.dll": [
+      "QueryFullProcessImageNameW"
+    ],
+    "api-ms-win-core-errorhandling-l1-1-1.dll": [
+      "AddVectoredExceptionHandler"
+    ],
+    "api-ms-win-core-rtlsupport-l1-1-0.dll": [
+      "RtlLookupFunctionEntry",
+      "RtlVirtualUnwind"
+    ],
+    "api-ms-win-core-sysinfo-l1-2-1.dll": [
+      "GetPhysicallyInstalledSystemMemory"
+    ],
+    "api-ms-win-core-string-obsolete-l1-1-0.dll": [
+      "lstrlenA"
+    ],
+    "api-ms-win-core-synch-l1-1-0.dll": [
+      "AcquireSRWLockExclusive",
+      "AcquireSRWLockShared",
+      "ReleaseSRWLockExclusive",
+      "ReleaseSRWLockShared",
+      "WaitForSingleObject"
+    ],
+    "MSVCP140.dll": [
+      "??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ",
+      "??0_Locinfo@std@@QEAA@PEBD@Z",
+      "??0_Lockit@std@@QEAA@H@Z",
+      "??0facet@locale@std@@IEAA@_K@Z",
+      "??0ios_base@std@@IEAA@XZ",
+      "??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+      "??1_Locinfo@std@@QEAA@XZ",
+      "??1_Lockit@std@@QEAA@XZ",
+      "??1facet@locale@std@@MEAA@XZ",
+      "??1ios_base@std@@UEAA@XZ",
+      "?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ",
+      "?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z",
+      "?_Fiopen@std@@YAPEAU_iobuf@@PEB_WHH@Z",
+      "?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z",
+      "?_Getcvt@_Locinfo@std@@QEBA?AU_Cvtvec@@XZ",
+      "?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ",
+      "?_Id_cnt@id@locale@std@@0HA",
+      "?_Incref@facet@locale@std@@UEAAXXZ",
+      "?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z",
+      "?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA_N_N@Z",
+      "?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ",
+      "?_Random_device@std@@YAIXZ",
+      "?_Syserror_map@std@@YAPEBDH@Z",
+      "?_Throw_Cpp_error@std@@YAXH@Z",
+      "?_Winerror_map@std@@YAHH@Z",
+      "?_Xbad_alloc@std@@YAXXZ",
+      "?_Xbad_function_call@std@@YAXXZ",
+      "?_Xinvalid_argument@std@@YAXPEBD@Z",
+      "?_Xlength_error@std@@YAXPEBD@Z",
+      "?_Xout_of_range@std@@YAXPEBD@Z",
+      "?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z",
+      "?fail@ios_base@std@@QEBA_NXZ",
+      "?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ",
+      "?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ",
+      "?good@ios_base@std@@QEBA_NXZ",
+      "?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A",
+      "?id@?$numpunct@D@std@@2V0locale@2@A",
+      "?init@?$basic_ios@DU?$char_traits@D@std@@@std@@IEAAXPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@_N@Z",
+      "?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z",
+      "?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ",
+      "?seekg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@V?$fpos@U_Mbstatet@@@2@@Z",
+      "?seekg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@_JH@Z",
+      "?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ",
+      "?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ",
+      "?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ",
+      "?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z",
+      "?tellg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA?AV?$fpos@U_Mbstatet@@@2@XZ",
+      "?uncaught_exceptions@std@@YAHXZ",
+      "?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z",
+      "?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z",
+      "?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z",
+      "_Cnd_do_broadcast_at_thread_exit",
+      "_Cnd_signal",
+      "_Cnd_wait",
+      "_Mtx_lock",
+      "_Mtx_unlock",
+      "_Query_perf_counter",
+      "_Query_perf_frequency",
+      "_Thrd_detach",
+      "_Thrd_hardware_concurrency"
+    ],
+    "api-ms-win-core-file-l1-2-0.dll": [
+      "CreateFile2"
+    ],
+    "api-ms-win-core-file-l1-2-2.dll": [
+      "AreFileApisANSI"
+    ],
+    "api-ms-win-core-file-l2-1-0.dll": [
+      "GetFileInformationByHandleEx"
+    ],
+    "api-ms-win-core-localization-l1-2-0.dll": [
+      "FormatMessageA",
+      "GetLocaleInfoEx"
+    ],
+    "api-ms-win-core-heap-l1-1-0.dll": [
+      "GetProcessHeap",
+      "HeapAlloc",
+      "HeapFree",
+      "HeapReAlloc"
+    ],
+    "api-ms-win-core-kernel32-legacy-l1-1-0.dll": [
+      "CreateFileMappingA"
+    ],
+    "api-ms-win-core-interlocked-l1-1-0.dll": [
+      "InitializeSListHead"
+    ],
+    "VCRUNTIME140.dll": [
+      "_CxxThrowException",
+      "__C_specific_handler",
+      "__RTDynamicCast",
+      "__intrinsic_setjmp",
+      "__std_exception_copy",
+      "__std_exception_destroy",
+      "__std_type_info_destroy_list",
+      "_purecall",
+      "longjmp",
+      "memchr",
+      "memcmp",
+      "memcpy",
+      "memmove",
+      "memset",
+      "strrchr",
+      "strstr",
+      "wcsrchr"
+    ],
+    "VCRUNTIME140_1.dll": [
+      "__CxxFrameHandler4"
+    ],
+    "api-ms-win-crt-locale-l1-1-0.dll": [
+      "___lc_codepage_func",
+      "localeconv"
+    ],
+    "api-ms-win-crt-stdio-l1-1-0.dll": [
+      "__stdio_common_vsprintf",
+      "__stdio_common_vsprintf_s",
+      "__stdio_common_vsscanf",
+      "__stdio_common_vswprintf",
+      "_fseeki64",
+      "_get_stream_buffer_pointers",
+      "fclose",
+      "fflush",
+      "fgetc",
+      "fgetpos",
+      "fputc",
+      "fread",
+      "fsetpos",
+      "fwrite",
+      "setvbuf",
+      "ungetc"
+    ],
+    "api-ms-win-crt-runtime-l1-1-0.dll": [
+      "_beginthreadex",
+      "_cexit",
+      "_configure_narrow_argv",
+      "_crt_atexit",
+      "_errno",
+      "_execute_onexit_table",
+      "_initialize_narrow_environment",
+      "_initialize_onexit_table",
+      "_initterm",
+      "_initterm_e",
+      "_register_onexit_function",
+      "_resetstkoflw",
+      "abort",
+      "terminate"
+    ],
+    "api-ms-win-crt-math-l1-1-0.dll": [
+      "_dsign",
+      "_fdsign",
+      "_ldsign",
+      "acosf",
+      "asinf",
+      "atan2f",
+      "atanf",
+      "cosf",
+      "expf",
+      "fmodf",
+      "ilogbf",
+      "ldexp",
+      "logf",
+      "lroundf",
+      "modff",
+      "nextafterf",
+      "pow",
+      "powf",
+      "remainderf",
+      "scalbnf",
+      "sin",
+      "sinf",
+      "sqrt",
+      "sqrtf",
+      "tanf"
+    ],
+    "api-ms-win-crt-filesystem-l1-1-0.dll": [
+      "_lock_file",
+      "_unlock_file"
+    ],
+    "api-ms-win-crt-string-l1-1-0.dll": [
+      "_stricmp",
+      "_strnicmp",
+      "_wcsicmp",
+      "isalnum",
+      "islower",
+      "strcmp",
+      "strcpy",
+      "strlen",
+      "strncmp",
+      "strncpy",
+      "strncpy_s",
+      "tolower",
+      "toupper",
+      "wcslen"
+    ],
+    "api-ms-win-crt-heap-l1-1-0.dll": [
+      "calloc",
+      "free",
+      "malloc",
+      "realloc"
+    ],
+    "api-ms-win-crt-utility-l1-1-0.dll": [
+      "qsort"
+    ],
+    "api-ms-win-crt-convert-l1-1-0.dll": [
+      "strtod",
+      "strtol",
+      "strtoll",
+      "strtoul",
+      "strtoull"
+    ],
+    "api-ms-win-crt-environment-l1-1-0.dll": [
+      "getenv"
+    ]
+  },
+  "exports": [],
+  "debug": [
+    {
+      "type": 2,
+      "data": "b'RSDSg)\\xce\\x19{\\xe2\\xca\\xd4LLD PDB.\\x01\\x00\\x00\\x00C:\\\\Users\\\\lukas\\\\Desktop\\\\cheaty\\\\cs2\\\\velocity-main nowe gui\\\\cs2\\\\velocity-cs2\\\\..\\\\bin\\\\cs2.pdb\\x00'"
+    }
+  ],
+  "runtime_function_count": 4195
+}

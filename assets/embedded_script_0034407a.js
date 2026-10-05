@@ -1,0 +1,1 @@
+(function(){try{var p=$.GetContextPanel();if(p&&p.IsValid())p.DeleteAsync(0);}catch(e){}})();

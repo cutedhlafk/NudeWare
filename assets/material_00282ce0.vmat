@@ -1,0 +1,39 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d}
+            format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+            {
+                shader = "csgo_character.vfx"
+
+                F_IRIDESCENCE = 1
+                F_CLOTH_SHADING = 1
+                F_RENDER_BACKFACES = 1
+                F_DISABLE_Z_PREPASS = 1
+                F_TRANSLUCENT = 1
+                F_ADDITIVE_BLEND = 1
+
+                g_vColorTint = [1.0, 1.0, 1.0]
+                g_flModelTintAmount = 1.0
+                g_flOpacityScale = 1.0
+
+                g_vTexCoordScrollSpeed = [0.05, 0.02]
+                g_vTexCoordScale = [1.2, 1.2]
+
+                g_flIridescentStrength = 2.0
+                g_flIridescentFresnelStrength = 15.0
+                g_flIridescentHueShift = 0.5
+
+                g_flSheenScale = 10.0
+                g_flSheenTintColor = [1.0, 1.0, 1.0]
+
+                g_fContrast = 0.5
+                g_fBrightness = 1.5
+                g_fSaturation = 1.5
+
+                g_flAmbientOcclusionMasking = 0.0
+                g_bFogEnabled = 0
+
+                g_tColor = resource:"materials/dev/primary_white_color_tga_21186c76.vtex"
+                g_tNormal = resource:"materials/dev/water_waves.vtex"
+                g_tMetalness = resource:"materials/dev/water_waves.vtex"
+                g_tAmbientOcclusion = resource:"materials/default/default_mask_tga_fde710a5.vtex"
+                g_tIridescentThickness_Mask = resource:"materials/dev/primary_white_color_tga_21186c76.vtex"
+            }

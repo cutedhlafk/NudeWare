@@ -1,0 +1,30 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d}
+			format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+			{
+				shader = "csgo_complex.vfx"
+
+				F_SELF_ILLUM = 1
+				F_RENDER_BACKFACES = 1
+				F_TRANSLUCENT = 1
+				F_DISABLE_Z_BUFFERING = 1
+
+				g_vColorTint = [0.0, 0.0, 0.0]
+				g_flModelTintAmount = 1.0
+				g_flOpacityScale = 0.6
+
+				g_flSelfIllumBrightness = 4.5
+				g_flSelfIllumScale = 2.0
+				g_vSelfIllumTint = [0.45, 0.85, 1.0]
+				g_flSelfIllumAlbedoFactor = 0.55
+				g_vSelfIllumScrollSpeed = [0.0, 0.35]
+
+				g_vTexCoordScale = [0.75, 9.0]
+
+				g_bFogEnabled = 0
+
+				g_tColor = resource:"materials/dev/primary_white_color_tga_21186c76.vtex"
+				g_tNormal = resource:"materials/default/default_normal_tga_7652cb.vtex"
+				g_tSelfIllumMask = resource:"materials/dev/water_waves.vtex"
+				g_tAmbientOcclusion = resource:"materials/default/default_mask_tga_fde710a5.vtex"
+				g_tTintMask = resource:"materials/default/default_mask_tga_fde710a5.vtex"
+			}

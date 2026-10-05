@@ -1,0 +1,1 @@
+(function(){var p=$.GetContextPanel().FindChildInLayoutFile('%s');if(p){p.DeleteAsync(0);}})();

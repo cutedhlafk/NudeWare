@@ -1,0 +1,1 @@
+(function(){try{var root=$.GetContextPanel();if(!root)return;var p=root.FindChildTraverse('%s');if(!p)p=root.FindChildInLayoutFile('%s');if(!p||!p.IsValid())return;p.style.width='%dpx';p.style.height='%dpx';}catch(e){}})();

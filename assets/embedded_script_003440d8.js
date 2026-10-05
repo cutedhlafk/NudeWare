@@ -1,0 +1,1 @@
+(function(){var p=$.GetContextPanel();if(!p)return;const yaw=%f;const pitch=%f;try{p.SetRotation(yaw,pitch,0.0);}catch(e){}try{p.SetRotation(yaw,pitch);}catch(e){}try{p.FireEntityInput('item','SetAngles',String(pitch)+' '+String(yaw)+' 0');}catch(e){}})();
